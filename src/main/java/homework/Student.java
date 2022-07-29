@@ -1,4 +1,4 @@
-package Homework;
+package homework;
 
 public class Student {
 
@@ -27,7 +27,7 @@ public class Student {
         return (mathAverage + economicAverage + foreignLanguageAverage) / 3;
     }
 
-    // вывод в консоль среднего бала
+    // вывод в консоль среднего балла
     public void outputGpa() {
         System.out.println("Средняя арифметическая оценка студента: " + firstName + " " + lastName + " " + "курса: " + course + " равна: "
                 + getAverageGrade());
